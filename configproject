@@ -1,0 +1,26 @@
+todo es webpack 
+
+*npm init 
+
+*npm install svelte
+
+*npm install -D @babel/core @babel/polyfill @babel/preset-env babel-loader html-webpack-plugin svelte-loader webpack webpack-cli webpack-dev-server
+
+*crear el archivo de .babelrc 
+
+*crear el archivo webpack config
+
+*npm install webpack-dev-server --save-dev 
+
+se tiene que agregar en el archivo de package el siguiente script 
+
+// "start2": "webpack-dev-server --open --mode development"
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+
+  “scripts”: {
+“build”: “webpack --mode production”,
+“start”: “webpack serve --mode developmen”
+},
